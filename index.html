@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timed Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+ <header>
+    <div class="scores">
+        <a id="highscores-link">View Highscores</a>
+    </div>
+    <div id="timer" class="timer">
+        Total Time: 75s
+    </div>
+ </header>
+ <!--start section-->
+ <section id="start-sec" class="start-quiz">
+    <h1>JavaScript Quiz</h1>
+    <p>Please try to answer all questions about JavaScript  in 75s. You will lose 10s if you choose the wrong answers.<br>Your total score will be your time after you answer the last question. Click start button to start the quiz.</p>
+    <div class="controls">
+        <button id="start-btn" class="start-btn">Start Quiz</button>
+    </div>
+ </section>
+<!--Q1-->
+ <section id="question1-sec" class="hide" >
+    <h1>Q1: Inside which HTML element do we put the JavaScript?</h1>
+    <div class="btn-grid">
+        <button id="1a" class="btn">&lt;javascript&gt;</javascript></button>
+        <button id="1b" class="btn">&lt;script&gt;</button>
+        <button id="1c" class="btn">&lt;js&gt;</button>
+        <button id="1d" class="btn">&lt;src&gt;</button>
+    </div>
+    <h2 id="check-answer1" class="correct-wrong hide"></h2>
+ </section>
+<!--Q2-->
+ <section id="question2-sec" class="hide" >
+    <h1>Q2:  Is a variable named ‘apple’ same as ‘Apple’ in javascript?</h1>
+    <div class="btn-grid">
+        <button id="2a" class="btn">Yes</button>
+        <button id="2b" class="btn">No</button>
+        <button id="2c" class="btn">Only when we use ‘strict’</button>
+        <button id="2d" class="btn">None of the above</button>
+    </div>
+    <h2 id="check-answer2" class="correct-wrong hide"></h2>
+ </section>
+<!--Q3-->
+<section id="question3-sec" class="hide" >
+    <h1>Q3: How to write an IF statement for executing some code if 'i' is NOT equal to 8?</h1>
+    <div class="btn-grid">
+        <button id="3a" class="btn">if (i != 8)</button>
+        <button id="3b" class="btn">if i =! 8</button>
+        <button id="3c" class="btn">if i != 8</button>
+        <button id="3d" class="btn">if (i =! 8)</button>
+    </div>
+    <h2 id="check-answer3" class="correct-wrong hide"></h2>
+ </section>
+<!--Q4-->
+<section id="question4-sec" class="hide" >
+    <h1>Q4: Which of the following javascript functions allows you to get user input data?</h1>
+    <div class="btn-grid">
+        <button id="4a" class="btn">alert</button>
+        <button id="4b" class="btn">prompt</button>
+        <button id="4c" class="btn">confirm</button>
+        <button id="4d" class="btn">input</button>
+    </div>
+    <h2 id="check-answer4" class="correct-wrong hide"></h2>
+ </section>
+<!--Q5-->
+<section id="question5-sec" class="hide" >
+    <h1>Q5: Where is the correct place to insert a JavaScript?</h1>
+    <div class="btn-grid">
+        <button id="5a" class="btn">The head section</button>
+        <button id="5b" class="btn">The body section</button>
+        <button id="5c" class="btn">Both the head section and the body section are correct</button>
+        <button id="5d" class="btn">None of the above</button>
+    </div>
+    <h2 id="check-answer5" class="correct-wrong hide"></h2>
+ </section>
+ <!--input section-->
+ <section id="score-sec" class="hide">
+    <form id="submit-form">
+        <h3 id="your-score"></h3>
+        <label id="initials-label">Enter your initials to save the score:</label>
+        <input type="text" id="initials-field" maxlength="3" placeholder="Enter your initials" />
+        <button id="submit-btn">Submit</button>
+    </form>
+ </section>
+ <!--score section-->
+ <section id="highscores" class="highscores-container hide">
+ <div id="high-scores">
+ <h1 class="centered">Leaderboard</h1>
+ <div id="highscore" class="highscore highscore-list">
+ </div>
+ <div class="controls">
+ <button id="restart-btn">Restart</button>
+ <button id="clear-btn">Clear Scores</button>
+ </div>
+ </div>
+ 
+ </section>
+
+ <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>

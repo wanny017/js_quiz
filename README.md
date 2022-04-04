@@ -1,7 +1,8 @@
 # js_quiz
-It's a Javascript quiz!
+#It's a Javascript quiz!
 ```
-Story:
+#Story:
+```
 You are taking a code quiz
 WHEN You click the start button
 THEN a timer starts and You are presented with a question

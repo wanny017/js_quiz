@@ -1,7 +1,6 @@
 # js_quiz
-#It's a Javascript quiz!
-```
-#Story:
+It's a Javascript quiz!
+## User Story
 ```
 You are taking a code quiz
 WHEN You click the start button

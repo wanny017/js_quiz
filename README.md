@@ -14,3 +14,7 @@ THEN the game is over
 WHEN the game is over
 THEN You can save Your initials and Your score
 ```
+## Mock-Up
+
+The following animation demonstrates the application functionality:
+(./Assets/04-web-apis-homework-demo.gif)

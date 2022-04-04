@@ -17,4 +17,4 @@ THEN You can save Your initials and Your score
 ## Mock-Up
 
 The following animation demonstrates the application functionality:
-(./Assets/04-web-apis-homework-demo.gif)
+(./assets/04-web-apis-homework-demo.gif)
